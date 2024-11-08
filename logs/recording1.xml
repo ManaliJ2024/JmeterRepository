@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="184" it="0" lt="180" ct="76" ts="1730886371237" s="true" lb="-78" rc="200" rm="OK" tn="" dt="text" de="UTF-8" by="1795" sc="1" ec="0" ng="0" na="0" hn="AVD-e410">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: application/json; charset=UTF-8
+Expires: -1
+Server: Microsoft-IIS/10.0
+request-id: 9255ba29-6162-39ba-1c7f-acc7a1e1b773
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-CalculatedFETarget: SJ0PR13CU002.internal.outlook.com
+X-BackEndHttpStatus: 200
+X-CalculatedBETarget: BYAPR05MB5221.namprd05.prod.outlook.com
+X-BackEndHttpStatus: 200
+X-RUM-Validated: 1
+X-RUM-NotUpdateQueriedPath: 1
+X-RUM-NotUpdateQueriedDbCopy: 1
+X-Content-Type-Options: nosniff
+X-BeSku: WCS5
+X-Owa-UserId: fa363d87-e3a8-4c79-a3a2-609d481daa1c
+x-ms-appId: 00000002-0000-0ff1-ce00-000000000000
+Restrict-Access-Confirm: 1
+X-OWA-Version: 15.20.8137.18
+X-OWA-OWSVersion: V2018_01_18
+X-OWA-MinimumSupportedOWSVersion: V2_6
+X-BackEnd-Begin: 2024-11-06T09:46:11.163
+X-BackEnd-End: 2024-11-06T09:46:11.179
+X-DiagInfo: BYAPR05MB5221
+X-BEServer: BYAPR05MB5221
+X-UA-Compatible: IE=EmulateIE7
+X-ResponseOrigin: OwaAppPool
+X-Proxy-RoutingCorrectness: 1
+X-Proxy-BackendServerStatus: 200
+X-FEProxyInfo: BN9PR03CA0609.NAMPRD03.PROD.OUTLOOK.COM
+X-FEEFZInfo: LYH
+X-FEServer: SJ0PR13CA0053
+Report-To: {&quot;group&quot;:&quot;NelOfficeUpload1&quot;,&quot;max_age&quot;:7200,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://exo.nel.measure.office.net/api/report?TenantId=fdb97aed-2488-4767-b0ea-a607e72006f1&amp;FrontEnd=Cafe&amp;DestinationEndpoint=LYH&amp;RemoteIP=20.242.185.0&amp;Environment=MT&quot;}],&quot;include_subdomains&quot;:true}
+NEL: {&quot;report_to&quot;:&quot;NelOfficeUpload1&quot;,&quot;max_age&quot;:7200,&quot;include_subdomains&quot;:true,&quot;failure_fraction&quot;:1.0,&quot;success_fraction&quot;:0.01}
+Alt-Svc: h3=&quot;:443&quot;;ma=2592000,h3-29=&quot;:443&quot;;ma=2592000
+X-FirstHopCafeEFZ: LYH
+X-FEServer: BN9PR03CA0609
+Date: Wed, 06 Nov 2024 09:46:11 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Accept: */*
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkEzMDVCMkU1Q0ZERjFGQTFBODgyNTU2MzM3NDhCQkNBRTAxNUU5OTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJvd1d5NWNfZkg2R29nbFZqTjBpN3l1QVY2WkkifQ.eyJvaWQiOiJmYTM2M2Q4Ny1lM2E4LTRjNzktYTNhMi02MDlkNDgxZGFhMWMiLCJwdWlkIjoiMTAwMzIwMDNEOTJENjk5QSIsInNtdHAiOiJBcmNoYW5hLk1hbGlAaGJmdWxsZXIuY29tIiwidXBuIjoiQXJjaGFuYS5NYWxpQGhiZnVsbGVyLmNvbSIsInZlciI6IkV4Y2hhbmdlLkNhbGxiYWNrLlYyIiwiYXBwaWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJkZXBsb3ltZW50aWQiOiJodHRwczovL291dGxvb2sub2ZmaWNlMzY1LmNvbS8iLCJ0aWQiOiJmZGI5N2FlZC0yNDg4LTQ3NjctYjBlYS1hNjA3ZTcyMDA2ZjEiLCJhY3IiOiIxIiwiYXBwaWRhY3IiOiIwIiwic2NwIjoiT3dhLk5vdGlmaWNhdGlvbnMuQWxsIiwibmJmIjoxNzMwODg2MDY4LCJleHAiOjE3MzA4ODk2NjgsImlzcyI6Imh0dHBzOi8vb3V0bG9vay5vZmZpY2UzNjUuY29tLyIsImF1ZCI6Imh0dHBzOi8vb3V0bG9vay5vZmZpY2UuY29tIiwiaGFwcCI6Im93YSJ9.dKCe4j7HeHp-rKWZeFzT2UDu_KTVr6WtWja8ciDzAK3_uAe8wa7Fi2JtSw9iGDlKpe9Oi7p7sMNz7cNdQrbisL0nTbtqdrMP1yqyswPliThbXrQ8UG3cfVd-zQ75kc9WlyU6jWmfkoZPciA1mEUsbXT9ATVdbjLw_liMoPmee6HB_57iiEviloSYsuntDpIFipGJE5VYUgF5i7cdCeHWWRDrFK5TPIzATYqWfvUrHjIinex6acE1N-DMJBoYNhBK6ZnHUU6p0G05w8sYxrXO0GoJwm2lDvGJckOT0I7gi24afXTE6ftmiwzk-0nJVeJx1SeCFBwlpqKbK0CmuQeoIg
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;130&quot;, &quot;Microsoft Edge&quot;;v=&quot;130&quot;, &quot;Not?A_Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge WebView2&quot;;v=&quot;130&quot;
+sec-ch-ua-mobile: ?0
+X-Client-ID: 59ae4c46-0ab8-4a16-bf8e-90b986a7d903
+x-native-host: OneOutlook/1.2024.1002.100
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: outlook.office.com
+Content-Type: application/json; charset=UTF-8
+X-AnchorMailbox: PUID:10032003D92D699A@fdb97aed-2488-4767-b0ea-a607e72006f1
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0 OneOutlook/1.2024.1002.100
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">{ &quot;Response&quot;: &quot;pong&quot; }</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">ClientId=405208DB762E4D179052217D3ABE18BA; OIDC=1; MSFPC=GUID=412fb73f412e496d8828d1c2e035e9ed&amp;HASH=412f&amp;LV=202410&amp;V=4&amp;LU=1728890471433; OWAAppIdType=Exchange; SuiteServiceProxyKey=RIs6bysc4zOmdqK01toIfwgTK4M3sN1ZecGnErpikTw=&amp;SCqxSYjLC6qmKTZ1/OIYUQ==; UC=17968d69339b4a33a1a51c45993295cb; luat=fh5FP/20yg88ejbTlQOjWQ1UZByCZ7jo9Z7siOX8LVmsp+yU1xNztHzNGoHcr2sbThFzscBCMjAjAxH1siPG1Kb20F25fGKAD2JJhe2HTntkEjQyF4/QX+0uT3GTmrcQLcQBofozd35RRH7WkyWHHVIiKGICJvZZQqnsT2UYFMAne6ZG7u4wtjJnmtyNeXrNyaqyIo2MyMvOEgblTXv5WXj93BFxg7iY8Gj+bXW+mvxheIOC7tvCYEHJJvo6KLKKF4FSp5RwuMmFQKx7lo1p5V3J/5uWvd7Er0q2sbCEC/f3MP2qAqmc8JQe4NprbhNSdIFSJB6RR7InoWmXe8P9hQ==</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://outlook.office.com/owa/notificationchannel/ping?UA=0&amp;cid=93c16e28-5498-9c20-1947-203f8d8c9f47&amp;app=Mail</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="teams.microsoft.com:443" rc="" rm="Software caused connection abort: recv failed&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1223" sc="1" ec="1" ng="0" na="0" hn="AVD-e410">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT teams.microsoft.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="statics.teams.cdn.office.net:443" rc="" rm="Software caused connection abort: recv failed&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1223" sc="1" ec="1" ng="0" na="0" hn="AVD-e410">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT statics.teams.cdn.office.net:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="226" it="0" lt="226" ct="91" ts="1730886375212" s="true" lb="Home-79" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="2022" sc="1" ec="0" ng="0" na="0" hn="AVD-e410">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store
+Pragma: no-cache
+Content-Length: 17
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/10.0
+request-id: 9dd461cd-59c6-5274-9de9-d9371e4e57c3
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-CalculatedFETarget: BYAPR05CU002.internal.outlook.com
+X-BackEndHttpStatus: 200
+Set-Cookie: OWAAppIdType=Exchange; expires=Fri, 06-Dec-2024 09:46:15 GMT; path=/;SameSite=None; secure; HttpOnly
+X-CalculatedBETarget: BYAPR05MB5221.namprd05.PROD.OUTLOOK.COM
+X-BackEndHttpStatus: 200
+X-RUM-Validated: 1
+X-RUM-NotUpdateQueriedPath: 1
+X-RUM-NotUpdateQueriedDbCopy: 1
+X-Content-Type-Options: nosniff
+X-BeSku: WCS5
+X-Owa-UserId: fa363d87-e3a8-4c79-a3a2-609d481daa1c
+x-ms-appId: 5d661950-3475-41cd-a2c3-d671a3162bc1
+Restrict-Access-Confirm: 1
+X-OWA-Version: 15.20.8137.18
+X-OWA-OWSVersion: V2018_01_18
+X-OWA-MinimumSupportedOWSVersion: V2_6
+X-OWA-HttpHandler: true
+X-OWA-DiagnosticsInfo: 27;0;0;
+X-IIDs: 1
+X-OWA-CorrelationId: 020f386c-f0da-9c74-5790-efa2d334163d
+X-BackEnd-Begin: 2024-11-06T09:46:15.179
+X-BackEnd-End: 2024-11-06T09:46:15.210
+X-DiagInfo: BYAPR05MB5221
+X-BEServer: BYAPR05MB5221
+X-UA-Compatible: IE=EmulateIE7
+X-ResponseOrigin: OwaAppPool
+X-Proxy-RoutingCorrectness: 1
+X-Proxy-BackendServerStatus: 200
+X-FEProxyInfo: CH0PR03CA0248.NAMPRD03.PROD.OUTLOOK.COM
+X-FEEFZInfo: MDW
+X-FEServer: BYAPR05CA0069
+Report-To: {&quot;group&quot;:&quot;NelOfficeUpload1&quot;,&quot;max_age&quot;:7200,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://exo.nel.measure.office.net/api/report?TenantId=fdb97aed-2488-4767-b0ea-a607e72006f1&amp;FrontEnd=Cafe&amp;DestinationEndpoint=MDW&amp;RemoteIP=20.242.185.0&amp;Environment=MT&quot;}],&quot;include_subdomains&quot;:true}
+NEL: {&quot;report_to&quot;:&quot;NelOfficeUpload1&quot;,&quot;max_age&quot;:7200,&quot;include_subdomains&quot;:true,&quot;failure_fraction&quot;:1.0,&quot;success_fraction&quot;:0.01}
+Alt-Svc: h3=&quot;:443&quot;;ma=2592000,h3-29=&quot;:443&quot;;ma=2592000
+X-FirstHopCafeEFZ: MDW
+X-FEServer: CH0PR03CA0248
+Date: Wed, 06 Nov 2024 09:46:14 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Site: same-origin
+prefer: IdType=&quot;ImmutableId&quot;, exchange.behavior=&quot;IncludeThirdPartyOnlineMeetingProviders&quot;
+x-req-source: Mail
+Origin: https://outlook.office.com
+x-owa-correlationid: 020f386c-f0da-9c74-5790-efa2d334163d
+x-owa-sessionid: 85a573a2-2088-b54f-b510-1337eb3a860e
+ms-cv: IMwm3Hz4HpQqGymilE1LED.319
+x-owa-urlpostdata: %7B%22__type%22%3A%22ChannelRoundTripNotificationRequest%3A%23Exchange%22%7D
+authorization: Bearer eyJ0eXAiOiJKV1QiLCJub25jZSI6IktPeEtCWkxZZS1JY3dWNTM5SDd2bXZRdHdBY1h3SF9SOEc5NGRrV3I1azgiLCJhbGciOiJSUzI1NiIsIng1dCI6IjNQYUs0RWZ5Qk5RdTNDdGpZc2EzWW1oUTVFMCIsImtpZCI6IjNQYUs0RWZ5Qk5RdTNDdGpZc2EzWW1oUTVFMCJ9.eyJhdWQiOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbS8iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9mZGI5N2FlZC0yNDg4LTQ3NjctYjBlYS1hNjA3ZTcyMDA2ZjEvIiwiaWF0IjoxNzMwODgxMTQ3LCJuYmYiOjE3MzA4ODExNDcsImV4cCI6MTczMDk3MTQzMSwiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFWUUFxLzhZQUFBQXo4eFAyRDF3ZDNuck5pNjdoL0d3Z3Q2VTNsSTZtSlpCWDRINzN1bnJ2azl4TUNBQ2d1bnJGa3RxQ0ZpNzRMWW4yOHZIaWFNb0Z0YUdLNlJ3aGFiMUNONjQ1dkhQaE14YmJ5Wk9SZEprS1dNPSIsImFtciI6WyJwd2QiLCJyc2EiLCJtZmEiXSwiYXBwX2Rpc3BsYXluYW1lIjoiTWljcm9zb2Z0IE91dGxvb2siLCJhcHBpZCI6IjVkNjYxOTUwLTM0NzUtNDFjZC1hMmMzLWQ2NzFhMzE2MmJjMSIsImFwcGlkYWNyIjoiMCIsImRldmljZWlkIjoiNzA2MjI0YTctYzBhYS00ZWU0LTlhNWYtNWFlMDM0MDg3ZWI1IiwiZW5mcG9saWRzIjpbXSwiZmFtaWx5X25hbWUiOiJNYWxpIiwiZ2l2ZW5fbmFtZSI6IkFyY2hhbmEiLCJpZHR5cCI6InVzZXIiLCJpcGFkZHIiOiIyMC4yNDIuMTg1LjM5IiwibG9naW5faGludCI6Ik8uQ2lSbVlUTTJNMlE0TnkxbE0yRTRMVFJqTnprdFlUTmhNaTAyTURsa05EZ3haR0ZoTVdNU0pHWmtZamszWVdWa0xUSTBPRGd0TkRjMk55MWlNR1ZoTFdFMk1EZGxOekl3TURabU1Sb1pRWEpqYUdGdVlTNU5ZV3hwUUdoaVpuVnNiR1Z5TG1OdmJTQkciLCJuYW1lIjoiTWFsaSwgQXJjaGFuYSIsIm9pZCI6ImZhMzYzZDg3LWUzYTgtNGM3OS1hM2EyLTYwOWQ0ODFkYWExYyIsIm9ucHJlbV9zaWQiOiJTLTEtNS0yMS03NDMxMTEzNTktMjc0MTU5Nzg2NS0yNjIzNTg5MDk1LTEyODczNiIsInB1aWQiOiIxMDAzMjAwM0Q5MkQ2OTlBIiwicHdkX3VybCI6Imh0dHBzOi8vcG9ydGFsLm1pY3Jvc29mdG9ubGluZS5jb20vQ2hhbmdlUGFzc3dvcmQuYXNweCIsInJoIjoiMS5BVnNBN1hxNV9ZZ2taMGV3NnFZSDV5QUc4UUlBQUFBQUFQRVB6Z0FBQUFBQUFBQmJBS1JiQUEuIiwic2NwIjoiQW5hbHl0aWNzLlJlYWRXcml0ZSBDYWxlbmRhcnMuUmVhZFdyaXRlIENhbGVuZGFycy5SZWFkV3JpdGUuQWxsIENhbGVuZGFycy5SZWFkV3JpdGUuU2hhcmVkIENhbGVuZGFycy1JbnRlcm5hbC5SZWFkV3JpdGUgQ2hhbm5lbC5DcmVhdGUgQ2hhbm5lbC5SZWFkQmFzaWMuQWxsIENoYW5uZWxNZW1iZXIuUmVhZC5BbGwgQ2hhbm5lbE1lbWJlci5SZWFkV3JpdGUuQWxsIENoYW5uZWxNZXNzYWdlLlJlYWQuQWxsIENoYXQuUmVhZCBDaGF0LlJlYWRXcml0ZS5BbGwgQ29sbGFiLUludGVybmFsLlJlYWRXcml0ZSBDb25uZWN0ZWRBY2NvdW50LUludGVybmFsLlJlYWRXcml0ZSBDb25uZWN0b3JzLlJlYWRXcml0ZS5TaGFyZWQgQ29udGFjdHMuUmVhZFdyaXRlIENvbnRhY3RzLlJlYWRXcml0ZS5TaGFyZWQgRGlyZWN0b3J5LlJlYWQuR2xvYmFsIERpcmVjdG9yeS5SZWFkLkxvY2FsIERXRW5naW5lLUludGVybmFsLlJlYWQgRUFTLkFjY2Vzc0FzVXNlci5BbGwgRmlsZXMuUmVhZFdyaXRlLkFsbCBGaWxlcy5SZWFkV3JpdGUuU2hhcmVkIEZvY3VzZWRJbmJveC1JbnRlcm5hbC5SZWFkV3JpdGUgR3JvdXAuUmVhZFdyaXRlLkFsbCBMb2NhdGlvbnMtSW50ZXJuYWwuUmVhZFdyaXRlIE1haWwuUmVhZFdyaXRlIE1haWwuUmVhZFdyaXRlLkFsbCBNYWlsLlJlYWRXcml0ZS5TaGFyZWQgTWFpbC5TZW5kIE1haWwuU2VuZC5TaGFyZWQgTWFpbGJveFNldHRpbmdzLlJlYWRXcml0ZSBNYWlsYm94U2V0dGluZ3MuUmVhZFdyaXRlLkFsbCBOb3Rlcy5SZWFkIE5vdGVzLlJlYWRXcml0ZSBOb3Rlcy1JbnRlcm5hbC5SZWFkV3JpdGUgTm90aWZpY2F0aW9ucy1JbnRlcm5hbC5SZWFkV3JpdGUgT25saW5lTWVldGluZ3MuUmVhZFdyaXRlIE91dGxvb2tTZXJ2aWNlLkFjY2Vzc0FzVXNlci5BbGwgT3V0bG9va1NlcnZpY2UuTm90aWZpY2F0aW9uc0NoYW5uZWwuQWxsIE9XQS5BY2Nlc3NBc1VzZXIuQWxsIFBlb3BsZS5SZWFkIFBlb3BsZS5SZWFkV3JpdGUgUGVvcGxlUHJlZGljdGlvbnMtSW50ZXJuYWwuUmVhZCBQZW9wbGVTZXR0aW5ncy5SZWFkLkFsbCBQbGFjZS5SZWFkLkFsbCBQbGFjZS5SZWFkV3JpdGUuQWxsIFByZW1pdW0tSW50ZXJuYWwuUmVhZFdyaXRlIFByaXZpbGVnZS5PcGVuQXNTeXN0ZW0gU2lnbmFsLlJlYWRXcml0ZSBTaWduYWxzLlJlYWQgU2lnbmFscy5SZWFkV3JpdGUgU2lnbmFscy1JbnRlcm5hbC5SZWFkLlNoYXJlZCBTaWduYWxzLUludGVybmFsLlJlYWRXcml0ZS5TaGFyZWQgU3Vic3RyYXRlU2VhcmNoLUludGVybmFsLlJlYWRXcml0ZSBUYWdzLlJlYWRXcml0ZSBUYWlsb3JlZEV4cGVyaWVuY2VzLUludGVybmFsLlJlYWRXcml0ZSBUYXNrcy5SZWFkV3JpdGUgVGFza3MuUmVhZFdyaXRlLlNoYXJlZCBUZWFtLlJlYWRCYXNpYy5BbGwgVG9kby1JbnRlcm5hbC5SZWFkV3JpdGUgVXNlci5SZWFkLkFsbCBVc2VyLlJlYWRCYXNpYyBVc2VyLlJlYWRCYXNpYy5BbGwgVXNlci5SZWFkQmFzaWMuU2hhcmVkIFVzZXIuUmVhZFdyaXRlIFVzZXItSW50ZXJuYWwuUmVhZFdyaXRlIiwic2lkIjoiYjZiYmFjNDYtOWQxZS00YWYzLTkxNGYtNjk2ZjM1ZTg5ZTIzIiwic2lnbmluX3N0YXRlIjpbImR2Y19tbmdkIiwiZHZjX2NtcCJdLCJzdWIiOiJDbTVWMzJVZlpJWkxKcmZQd1NjVlJTcVRoYnYxSEdlZlc3NFFuVXZWV1BNIiwidGlkIjoiZmRiOTdhZWQtMjQ4OC00NzY3LWIwZWEtYTYwN2U3MjAwNmYxIiwidW5pcXVlX25hbWUiOiJBcmNoYW5hLk1hbGlAaGJmdWxsZXIuY29tIiwidXBuIjoiQXJjaGFuYS5NYWxpQGhiZnVsbGVyLmNvbSIsInV0aSI6IjQ1dUFQRm9adTBTYzAxZVdkUlhsQUEiLCJ2ZXIiOiIxLjAiLCJ3aWRzIjpbImI3OWZiZjRkLTNlZjktNDY4OS04MTQzLTc2YjE5NGU4NTUwOSJdLCJ4bXNfYXVkX2d1aWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJ4bXNfY2MiOlsiQ1AxIl0sInhtc19pZHJlbCI6IjggMSIsInhtc19zc20iOiIxIn0.FYkhiB41dz5BXr48K7xdNA4_Muz9cby0YSagiIP1kLqDgKoBkRs40TDHYdLrL41BhcfYK6SQpE2TRIJdHkkGBHNTTCx34H6Jx0dS9zOqJWQZ_-rCC2E3ssdyhFypeA0YLiJdieESYldKKk4IAX45TNbnShgQDVT03r68nIZ6IMKcT_036dxBHVJ6iOpmyh6m_dS7vHYviHrt1lxsNNGTLC76iWStWYrOtuGpO05ku7raEIFVN-Dtz901dJWlyOG7xcvz2viJ9sgFmOsgUQ4skvf8z5H8oabmnTiB-b9UTQzJdWu65xvGyEYCO3XjZ_ylH3fpy8uzJKl8trO7sVdlQg
+sec-ch-ua-mobile: ?0
+X-Client-ID: 59ae4c46-0ab8-4a16-bf8e-90b986a7d903
+x-owa-hosted-ux: false
+Host: outlook.office.com
+action: SendChannelRoundTripNotification
+content-type: application/json; charset=utf-8
+x-anchormailbox: PUID:10032003D92D699A@fdb97aed-2488-4767-b0ea-a607e72006f1
+Sec-Fetch-Mode: cors
+Accept-Language: en-US,en;q=0.9
+Accept: */*
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;130&quot;, &quot;Microsoft Edge&quot;;v=&quot;130&quot;, &quot;Not?A_Brand&quot;;v=&quot;99&quot;, &quot;Microsoft Edge WebView2&quot;;v=&quot;130&quot;
+x-native-host: OneOutlook/1.2024.1002.100
+sec-ch-ua-platform: &quot;Windows&quot;
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0 OneOutlook/1.2024.1002.100
+Sec-Fetch-Dest: empty
+Content-Length: 0
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;Response&quot;:true}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">ClientId=405208DB762E4D179052217D3ABE18BA; OIDC=1; MSFPC=GUID=412fb73f412e496d8828d1c2e035e9ed&amp;HASH=412f&amp;LV=202410&amp;V=4&amp;LU=1728890471433; OWAAppIdType=Exchange; SuiteServiceProxyKey=RIs6bysc4zOmdqK01toIfwgTK4M3sN1ZecGnErpikTw=&amp;SCqxSYjLC6qmKTZ1/OIYUQ==; UC=17968d69339b4a33a1a51c45993295cb; luat=fh5FP/20yg88ejbTlQOjWQ1UZByCZ7jo9Z7siOX8LVmsp+yU1xNztHzNGoHcr2sbThFzscBCMjAjAxH1siPG1Kb20F25fGKAD2JJhe2HTntkEjQyF4/QX+0uT3GTmrcQLcQBofozd35RRH7WkyWHHVIiKGICJvZZQqnsT2UYFMAne6ZG7u4wtjJnmtyNeXrNyaqyIo2MyMvOEgblTXv5WXj93BFxg7iY8Gj+bXW+mvxheIOC7tvCYEHJJvo6KLKKF4FSp5RwuMmFQKx7lo1p5V3J/5uWvd7Er0q2sbCEC/f3MP2qAqmc8JQe4NprbhNSdIFSJB6RR7InoWmXe8P9hQ==</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://outlook.office.com/owa/service.svc?action=SendChannelRoundTripNotification&amp;UA=0&amp;app=Mail&amp;n=308</java.net.URL>
+</httpSample>
+<httpSample t="66" it="0" lt="66" ct="48" ts="1730886387224" s="true" lb="Home-80" rc="200" rm="OK" tn="" dt="" de="" by="703" sc="1" ec="0" ng="0" na="0" hn="AVD-e410">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Length: 0
+Connection: close
+Date: Wed, 06 Nov 2024 09:46:26 GMT
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: authorization,content-type
+Access-Control-Allow-Origin: https://lwa-global-eastus-hbf-ai1-ui.azurewebsites.net
+Set-Cookie: ARRAffinity=a62626dda0a994cc53a7b9430d4c3f621c8a96f608d900060ae08484c46b0bfc;Path=/;HttpOnly;Secure;Domain=lwa-global-eastus-hbf-ai1-back.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=a62626dda0a994cc53a7b9430d4c3f621c8a96f608d900060ae08484c46b0bfc;Path=/;HttpOnly;SameSite=None;Secure;Domain=lwa-global-eastus-hbf-ai1-back.azurewebsites.net
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://lwa-global-eastus-hbf-ai1-ui.azurewebsites.net/
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.9
+Origin: https://lwa-global-eastus-hbf-ai1-ui.azurewebsites.net
+Access-Control-Request-Method: POST
+Accept: */*
+Host: lwa-global-eastus-hbf-ai1-back.azurewebsites.net
+Access-Control-Request-Headers: authorization,content-type
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://lwa-global-eastus-hbf-ai1-back.azurewebsites.net/v1/harvey-chatbot</java.net.URL>
+</httpSample>
+<httpSample t="394" it="0" lt="394" ct="238" ts="1730886387409" s="false" lb="Home-82" rc="400" rm="Exception while decoding the payload" tn="" dt="text" de="" by="551" sc="1" ec="1" ng="0" na="0" hn="AVD-e410">
+  <responseHeader class="java.lang.String">HTTP/1.1 400 Exception while decoding the payload
+Content-Length: 56
+Content-Type: application/json
+Server: Microsoft-HTTPAPI/2.0
+Strict-Transport-Security: max-age=31536000
+Collector-Error: Exception while decoding the payload
+Access-Control-Allow-Headers: Collector-Error
+Access-Control-Allow-Methods: POST
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Collector-Error
+Date: Wed, 06 Nov 2024 09:46:27 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Upload-Time: 1730886387361
+APIKey: 5476d0c4a7a347909c4b8a13078d4390-f8bdcecf-243f-40f8-b7c3-b9c44a57dead-7230
+Content-Encoding: deflate
+Pragma: no-cache
+Accept: */*
+Expect: 100-continue
+SDK-Version: EVT-Windows-C++-No-3.4.276.7
+Host: self.events.data.microsoft.com
+Content-Type: application/bond-compact-binary
+Client-Id: NO_AUTH
+Cache-Control: no-cache
+Content-Length: 9783
+User-Agent: Apache-HttpClient/4.5.14 (Java/1.8.0_431)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;acc&quot;:0,&quot;efi&quot;:{&quot;DecodingOrDecompressionFailure&quot;:&quot;all&quot;}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">�]K�&#x1c;�y��\��C�_1`ū&#x18;pԽ�zW&#xb;����J&#xb;��&#x15;�&#xf; &#x17;����jp�g5&#xf;J4x&#x8;&#x2;� 0� �&#x1c;r�U�%�&#x1c;�&#x1c;�� 0��&#x10;��K|�&#xf;NrO.���쐳�d+2-�P&#x11;�Rw=��������&#xf;����j5�&gt;��p&lt;��To��_��&#x7f;���?���&#xf;�9|�hg�y�KW*튼�tϗB����*�&#x7f;9���&#x1e;&lt;��T?&#x7f;��F��po�Bg8:&#x18;��I=l�;&#x7f;�&#x1e;M����+e�V݄������/&#x1d;�,�\I��BnآX{�xh�&#x1b;����Q���ek���ne&#x1b;&#x1d;)2��f�^�����R���B��&#xf;�ߪ�����F&#x18;ߙ&#xc;&#xf;�&#x7;_Y^zo^��a�&#x7;��W�U)�&#x14;�b���[�7
+�M��(&#xc;B9&#xe;��Mn3!M�&lt;����&#x7;O��~x�&#x52b;B����b5&#x7;�&#xf;O�`~x�&#xd;�&#x7;�&#x0;��7��0	�ЯO�h�4�w���&#xb;�K�������!����K��a�V��tv�m��\gC���̮�Lw6:�_&#x13;k��&#x16;��D��&amp;����K��m�ou��6��˴�t��|Sg�&#x1b;&#x1b;kNlZi����b&#x12;N����&#x15;��{�Kɇ�9QMǓ��������&#x1f;�Y��ᴙ\�w&#x10;�S��1�c&lt;N.����߭�&#x7;a�a}��&apos;&apos;�&#xe;��~�/t�&#x13;�a�&#x5ed;BS��!�&#x1f;&#x1c;l7{��������&#x1d;�é[F��0&#x1a;c��X.9��7�G��i�ƨ�&#x1b;����z�_&#x1b;�5&amp;��LGx�ڕ&#xd;��&#xb;�r0&#x8;��&#x11;P�&amp;���y���&#xc;�&#xf;�M&#x0;�cD�\��a&#x6;[O����Qr�s0�^�%&#x18;��&#x1d;8��:`7�vx�F�i&#xd;#&#x16;��µZ��&#xb;�f��.\;^��]�Qk&#x7b3;�eݿ:�q0&#xe;�Ari#ܭ��Zmg�&#xe;�^�;�&#x12;ɩ���{ɓ��~)9��ܭGC�&#x15;�.�&#x6;�i�����h�A�&#x7fc;���&#x1c;��a�^ǒsm!&#x1a;߭�aT�(+�s��ˬ&#x11;2�¸�[����r���W�m���-�dy�]&#x18;�n��&apos;�t+&quot;_&#x11;zE�&#x15;�WD�&quot;�r+Z�h�b��)V�^�f��&#x15;�V�Y�v�p+�_)
+�E�\ I$��&apos;�	B&#x2e4a;&#xf;fB���5�4ޡ�Ϡ��=� �
+���&#x19;@�&#x7f;&#xb;�&quot;�,�&lt;&#x12;&#x0;�&#x19;&#x12;��A��+Ң�J$�dW�4+&#x6;�2J�*թIm*\*|*u*M*m*]*�T�2���r�*R-R��:�65�fR�&#xb;�Z�Z�Z��&lt;u&quot;u*u.u&gt;�y�e�U�u�M�m�]�}Zȴ�i�&#x11;�r$�d�� gY�
+!�4&#x12;�&#x0;KH��&#x2;	������:`&#x14;
+��R&#x0;�Ph&#xb;�&#x2;&#x18;a�T&#x18;\&#x1b;�&#x3;�0�G&#x1f;�&gt;&#x16;�&#x16;�&#x16;�&#x1d;�	�0(&#x12;ʁ]8��&#x1d;�øH�+PW�&#x19;&#x5;�]�&#x2;	�&#x2;v��b�/�_�&#x1c;	u�.iRQ�&#x12;�%mK�J���RI$����0$�i�iN&#x3;ʀ]&#x1a;�&#x3;?&amp;&#x11;��6&#x16;��.ae	�&#x8;�Hx��=�J�~&#x5;�&#x15;�Sp�0���`c&#x5;�
+8�R�&#x12;�U�k�k������}�D[�T���&#x3;�I�U&#x1;��7�&#x1d;�&#xf;��&#x2;v&#x5;;+�Tp&#x4;&#x5;�
+&#x18;�E[8��]��5��&#x1b;&#x14;p*�T�	&#x5;�P�
+&#x5;�Pp
+&#x5;�
+���]��
+6ֹD����&#x1a;���YÖ&#x1a;850j�&#x3;&#xb;&quot;�-l�[�D;�����Cb&#x1d;�נ&#x1e;~��&#x7;&#x1a;85l��Mc�A�&#x6;&gt;&#xd;&lt;��TÆ&#x1a;�Ec�&#xd;lh��&#x0;&#xb;(&#x11;�H&#xd;����&#x6;�&#xc;�h`G&#x3;;&#x1a;��&#x0;�&#x1;F�5&#x12;�1�&#x6;64�U&#x3;;&#x1a;��&#x0;��&#x1d;&#xd;lh��&#x0;�&#x1;v&#x3;���P&#x7;�&#x6;�&#xd;�&#x1b;����&#x6;�k��&#x19;��&#xf;�&#x16;����&#x1f;&#x1b;��`&lt;&#x6;�1&#x18;���&#xd;�c&#xfe0;���&#x1f;,�`aO�qX��&#x2;7�&#x0;H&#x12;	��k1�V�����&gt;�l��&#x2;�&#x5;N&#xb;�&#x16;&#x18;&#x11;E�p&#xf;�Z&#x6;&#x2;̽&#x5;&amp;&#xb;�Z��c��&#x2;�&#x5;&#xe;�9��c&#xb;�Z`���&#x3;&amp;�!&#x12;�&#x6;�9� �r��&#x1;��M&#x1d;l����&#xe;�&#x1c;�9�s��`W&#x7;&#x1b;:|?&#xe;�s��`+&#x7;\&#xe;�&#x1c;09|�&#xe;�&#x1c;&#x3;&#x14;#T&#x1b;��.��&#x1;��?:��&#x3;F&#x7;l&#xe;�����&#x3;���&lt;b�&#x17;�e���|{`�&#x11;&#xe;m��&#x3;��7�aC�o�c�=���n&#x1e;����~&#x1e;߸&#x5cc;���&#x1c;{��&#x1b;&#x6;H�&#x1b;ޣ&#x1d;��#�z|G�&apos;$�a&#xc;&#x1e;�=p{����&#x14;�ŷ��&#x14;�[&#x0;o&#x1;?-���YV�&#x5;�Y�W&#xb;ش�M&#xb;�.`�&#x2;�&#xb;�.��&#x0;�&#x2;�,`�&#x2;�&#xb;�g&#x1;{&#x16;��&#x1a;�2L(&#x3;�&#x2;�
+�+��&#x5;�&#x15;�&#x2;�,&#x10;�
+τ{ذ`���&#x16;��&#x5;b&#x11;b=�}&#x1b;��P/&#x18;�&#x1;&#x8;L�
+����=g��:�Y{�v�=4���&#x19;�g�Ĳ	�xnY��(F��!=w-��&#x1d;��g-cz�Y��׳�oy�e��9C&lt;^��0���2ό&#x4;ղ&#x13;� `?ђ��l��E�&lt;$4k�Y&#x18;������؃�$8���Z&amp;j�F&#x10;���-_T�/9H&#x14;�%Ȗ�Z&gt;jɈl$HG�ȏ�K&#x6;B���+I��eRL=h�|J�eӖJ	�Ą�&#x15;����%��,�A�#&quot;A	�� =	�&#x13;2֒a%��|����DaIǌ�,��X����(�ZBo+�&#x0;N&#x14;IM�Ր�&#x1c;���%YXr��6d��f�%&#x0;�E�&#x12;d-AzB�F`&#x13;�^q�@|���X��%&#x4;+�J&#x11;&#xb;iK��&#x4;IJ(N&#x5;)J��&#x4;	
+���&#x19;�&#x1c;�A�Bf���&#x5;�#l��М&#xf;�&#x16;2�r�B
+C�Z�մ���5m�g�&#x19;V T&#x8;r� ���XF�k&#xe;�����&#x1c;&#x1b;�&#xd;&#x19;&#x1f;@ck:���4�&#xf;M�����������&#x1d;&#x1c;&#x16;I&#xe;&#xe;˕&#x13;݇�&amp;Hp�&#xc;&apos;Hq���Ls��[�.�X�!��&#x4;�M��&#x4;	N�لi�e&#x1c;&#xc;�M��&#x4;iM��&#x4;�&#xd;&#x19;�B��^BbCƇ&#x12;3�&#xd;&#x19;&#x1f;@�0DOn&#x13;$7d�&#x19;�x&#x4;NbC��q�G�[���aIe�&lt;��]&#x14;�&#x1;4�%&#xc;�.&#x12;i:˗[�	-���#,&#xd;F&#x1e;&#x13;$2A&amp;C�u4#&#x1c;�&#xc;&#x19;W��}��w\Ԓ�&#x4;�L��&#x4;	&#xd;�O֪v&#x19;�n��# �Yu��Hbµ�UN#yL���P�&#x15;��&#x11;��&#xc;��&#x4;�&#xb;�d����&apos;&#xc;�&#x17;24��7R� W!c�j+ؘs�i&#x12;O7#E!c-QyZ�&#x14;%�Q��$�N�����n��gx���=���񴚧�&lt;1{�&#x3;�K��&#x4;�&#xb;&#x19;&#x17;ڜFҗ &#x7f;!k&#x17;�&#x19;+h?&#x12;� k!c7:\�Y-�k&#x5;��`�-��&#x14;&#x1c;&#x7;iL��&#x4;I&#xc;&#x19;ˈ�&lt;�p�Z&#x1a;��$��D��.��&#x7f;��o���&#x6;&#x0;�&#x10;vsf�&#x19;7&#x2;@��[&#x1;�Z.��`�x��=&#x3;&#x1b;k�&#x18;&#xc;�bYfYf����&gt;��&gt;w�u��Y��}&#xe;�a����&#x14;�[�{$wAȸ���&#x4;7&#x12;�&#x5;I2�&#x14;���Ĳ�[&#x7;�s$79�&#x5;�X�� &#x1;I2�$� �օok78���&#x7b4;{��Ɔ;&#x18;҄$M�v3#9�v&#x1b;#9@i���6�ݟ�&#x1b;&#x14;&#x6;sd�&#xe;q&#xf;ō	��;#�n�
+I▔�&#x11;�f{��Y{e���a&#x19;wIʰ�ac&#xe;Zq�ʲ�e&#x19;m�]��v&#x3;h�6bQ&#x1c;�*ؤ&#x5;T��2��rk��ϸA�$s&#x1b;��M�Os&#x2;4�1�KFod�m�u�S�&#x1d;	(����&amp;4�gd�˽&#x1c;7 �;&#x10;�X,&#x19;����!��@昵{C^IV���K cc�
+Zô{GZ��&#x1a;��ȸ��|pg���}�[&#x1a;�й&#x18;J���g�vÉ&#x1e;&#xc;���&#x11;&#x52d;���irrk���P�ĭ��&#xd;�M��B�ên��߸���no�����|����+�w_&#x7f;u�������nn�O�٪&#x7;�{o&lt;	��C�drr�ye�&#x1d;ޭ�qH�o7�I9&#x18;�&gt;��S�zy7��&#x7;�����xrx;��[���ϕ�G��&#x16;��Fa&lt;&#xe;���6^;;�:�`09+�V� ԧL~&apos;�
+�Nr�5�Z�T���(h����ݺ��L¨)&#x7;&lt;�:s��W�u�~��&#x1c;�&amp;&apos;���;��S7���+aR��I�&#x1e;�=���S�?�UG*������X{���[&lt;���&#x16;O�&#x16;&#xf;�ޜ�V�1&#x1c;�&#xf;0��^�V�0&#x1d;_&#x1f;�	M���� �g&#x7;ss�=�����ȳ;�Y����&#x7f;��X�[N���&#x13;��&#x18;�5.9���ޙ�K:Y���&#x18;��b�gw����C&#xb;w&apos;���]_&#x10;v5_&#x15;��*&#x8f;�Ʌ����!�]&#x14;},���TeD&amp;���|_�&#x19;�&#x1f;z�ҙ�o���&#x1f;��^{%&quot;B&#x7fb;,��g�rEV�RfX2��&#x17;��&#x14;Ura��{�&#x1a;���myU *�B��Pd�=YeU��&#xc;��J&#x15;�Wڽ����AY����&gt;��ٔ�A���&amp;�iHN�&#x2;E9	���S&#x18;��3��7��Iٝ��&gt;qu8�/&#x7;��k��Ag��շ&#xf;�A�4�t-�=��w���f��$���Z&#x18;O&#x7;�ΰ&#x1f;&#x1e;ݵ��������N7����\�lk�|&#x15;!&#x3;���}�&#x13;ηO�d��������!&#x1e;&#x1d;�_��(o��Ay�}ȳ������5��&#xb;����^rz�&#xe;�&#x1;s��&#x15;�&#xc;�&#xc;&#x11;&#xf;s�Mz��C��6w&#x1;k������Qٌ����&#x13;���meL�c��i�{�u�J��J&#x15;�P&amp;��G&#x8;F&lt;�&#x15;&#xb;�r�Z-\�k�pm&#x17;�]r�FӫKď�I��&#x1b;&#x7;�&#x2;�+���&#x0;ȎK��&lt;Y��^�&#x1f;/o2T&#x1c;�j|E�聳0�A@-Ԛ˶܆������ֶ�f����&#x10;6D���cy��v&#x15;�z�y&#x19;�����ó쇲����E��Ef&apos;�n����C�;�-��U&#x1f;��N\C&#x0;�&#x7;ɩ[�ѝ����O�l�&apos;I��V�:;&gt;��V�����俢����_&#x7f;��į��G��\&#x14;�OV�&#x1e;����O&#x7f;����$�^�U��M&amp;D�&#x0;$�ϼ����uO&#x5;&#x15;&lt;6q?/!�(!E	)JHQB�&#x12;R����&#x14;%�(!E	)JHQB�&#x12;R����&#x14;%�(!E	�IH3�����&#x14;&#xf;�x&amp;�#��&#x13;�7���y�ln���P�Z8&#x18;�&amp;Q&#x1;�|&#x14;�O/�,�9��7�a&#x1a;(���&#x6;a&#x12;&gt;��sj&gt;���&#x1f;�	����v��&#x8;#�_�����,J��j�fZ�{Yٗy�=���UAȽ�{2��%쁽a�ui�aӧ3��ln]Ub�s997&#x7f;������@�|u8��&#x8;�&#x15;^�����ú�Uq�u�GO�V�إ���ޏ�4��HC&#x7f;����?����#&#xd;�(&#xd;Ei(JCQ&#x1a;��P���4&#x14;��(&#xd;Ei(JCQ&#x1a;��P���4&#x14;��(&#xd;Ei�IC�^���3ě���,O�KG�����&apos;��&#xc;��&apos;&#x17;gu�s�y�&#xb;��G��ħ��R��&#x17;��G��I��N�&#xf;����
+�N�è�&gt;�/�&#x1e;)Q���&quot;*RQ��%�ԅ�l��Sxg&#x1e;��/�&#x1d;	U�W�&#x1a;&#x3;ǜ^�6&#xd;�:����W&#x1c;����0L.:ü�W&gt;��H�K{����f�&#x1d;&#xe;e��u_�h���&#x17;�g��;&#x8;��a&#x18;^,&lt;�g�0y&#x7;�ق�&#x10; &#x1f;&#x6;���G�|�Y�������z�#5G:~y�z=�&#xd;&#x1f;��K&#x1f;�:����p0X������&#xc;4�!`Й�}8���#͟&#x19;&#x5f7;��ߙN�m�=,9�����&#x1e;����H������&gt;�����Q�|B����?��&#x5;���?:&#x1d;��c&#x14;f�0&#x1b;��(�Fa6
+�Q���l&#x14;f�0&#x1b;��(�Fa6
+�Q���l&#x14;f&#x7f;���g&#x1f;�(��&#x9f;}&lt;�}��&#x7f;��3����V�`�ɰ&#xf;���&#x17;6���&#x19;X&#x17;�������?������|�.o7��f
+�����~&#x12;&#x15;�&apos;D&#x1;��ǧ��&#x7f;A~������&#x8;G2
+GQ8��Q&#x14;��p&#x14;��(&#x1c;E�(
+GQ8��Q&#x14;��p&#x14;��(&#x1c;E�(
+G��&#x91;�&#xd;��G��&#x15;�WCه&#x11;��nnG��I���/�f&gt;�&#x1b;�o]&#x6;&#x13;a��ʼ��t/���&#x16;�&#x15;6!�&#x1e;(+�&#x1f;�yۅ�s���&#x1;���מ�_�=7�)z����7�_�N���v�n&#x6;&#x8;&#x13;��z�g:ύ���3G�5y��&#x19;�&#x18;����#Y�Zθ*��t&#x7f;�&#x1c;�{�����&#x1f;GY�	�u����:�O��s��O��pt�&gt;�;
+&#x15;�G&#x10;g��&gt;�qҕq����?���~M���Z|�?�}%4&#x1;&gt;�&#x1f;���&#x2;|�����&#xc;���e5�&#x6;���s�&#x18;u��q�q��z&lt;�&#x12;R����&#x14;%�(!E	)JHQB�&#x12;R����&#x14;%�(!E	)JHQB�&#x12;�㐐��US��n�/&#x1e;&#x12;=:&#x1b;�&quot;JL&#x17;���^	��ѽ�A}&apos;��&#xe;K�ч�&#xf;��3&lt;���ΐ���ۦ&apos;=�٣
+q��&apos;�W˦����&#x1e;��_�&#x1e;t�&#x16;&quot;G5&#x18;Vw&#x1e;&#x1e;{��&#x7f;�����e��&#x1;</queryString>
+  <java.net.URL>https://self.events.data.microsoft.com/OneCollector/1.0/</java.net.URL>
+</httpSample>
+<httpSample t="1567" it="0" lt="1074" ct="27" ts="1730886387338" s="true" lb="Home-81" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="1066" sc="1" ec="0" ng="0" na="0" hn="AVD-e410">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Connection: close
+Content-Type: text/event-stream; charset=utf-8
+Date: Wed, 06 Nov 2024 09:46:27 GMT
+Server: uvicorn
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: https://lwa-global-eastus-hbf-ai1-ui.azurewebsites.net
+Content-Encoding: none
+Set-Cookie: ARRAffinity=a62626dda0a994cc53a7b9430d4c3f621c8a96f608d900060ae08484c46b0bfc;Path=/;HttpOnly;Secure;Domain=lwa-global-eastus-hbf-ai1-back.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=a62626dda0a994cc53a7b9430d4c3f621c8a96f608d900060ae08484c46b0bfc;Path=/;HttpOnly;SameSite=None;Secure;Domain=lwa-global-eastus-hbf-ai1-back.azurewebsites.net
+Transfer-Encoding: chunked
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://lwa-global-eastus-hbf-ai1-ui.azurewebsites.net/
+Sec-Fetch-Site: cross-site
+Accept-Language: en-US,en;q=0.9
+Origin: https://lwa-global-eastus-hbf-ai1-ui.azurewebsites.net
+Accept: application/json, text/plain, */*
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IjNQYUs0RWZ5Qk5RdTNDdGpZc2EzWW1oUTVFMCIsImtpZCI6IjNQYUs0RWZ5Qk5RdTNDdGpZc2EzWW1oUTVFMCJ9.eyJhdWQiOiJhcGk6Ly8xYjNiZGM1Yy0yZjRhLTQyNzYtOWVjOC05OGFmMzYxMTU2MjEiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9mZGI5N2FlZC0yNDg4LTQ3NjctYjBlYS1hNjA3ZTcyMDA2ZjEvIiwiaWF0IjoxNzMwODgzMDEzLCJuYmYiOjE3MzA4ODMwMTMsImV4cCI6MTczMDg4ODQ3NiwiYWNyIjoiMSIsImFpbyI6IkFWUUFxLzhZQUFBQUluQkxOLzdjU2xJWkRLYXlNWG1EMEJxdVdqQnBNYmhRcFNjd3RsVjlMOHZhSlNVM2ErbSt2SXlCbTlmbU4yTW1YVzR2WFYyM1JVcUFxQTl5dkFkanJXYjNrNm1mMWZWNkNxTUk1aFVmR3JVPSIsImFtciI6WyJwd2QiLCJtZmEiXSwiYXBwaWQiOiJjYzM3N2MxNC1hNDg3LTQ1NzItOGI4OC01MTIxZGQ2NTQwZjMiLCJhcHBpZGFjciI6IjAiLCJmYW1pbHlfbmFtZSI6Ik1hbGkiLCJnaXZlbl9uYW1lIjoiQXJjaGFuYSIsImlwYWRkciI6IjIwLjI0Mi4xODUuMzkiLCJuYW1lIjoiTWFsaSwgQXJjaGFuYSIsIm9pZCI6ImZhMzYzZDg3LWUzYTgtNGM3OS1hM2EyLTYwOWQ0ODFkYWExYyIsIm9ucHJlbV9zaWQiOiJTLTEtNS0yMS03NDMxMTEzNTktMjc0MTU5Nzg2NS0yNjIzNTg5MDk1LTEyODczNiIsInJoIjoiMS5BVnNBN1hxNV9ZZ2taMGV3NnFZSDV5QUc4VnpjT3h0S0wzWkNuc2lZcnpZUlZpRmJBS1JiQUEuIiwic2NwIjoidXNlcl9pbXBlcnNvbmF0aW9uIiwic3ViIjoiZFJkdkR5aWVQRmdxZlg4SnNPaTliQW93LWMyQVhQZHljeUhSaG1FZUw4OCIsInRpZCI6ImZkYjk3YWVkLTI0ODgtNDc2Ny1iMGVhLWE2MDdlNzIwMDZmMSIsInVuaXF1ZV9uYW1lIjoiQXJjaGFuYS5NYWxpQGhiZnVsbGVyLmNvbSIsInVwbiI6IkFyY2hhbmEuTWFsaUBoYmZ1bGxlci5jb20iLCJ1dGkiOiJfYjlSeTZ2RWFraWVzNnJYYzlNM0FBIiwidmVyIjoiMS4wIn0.ItWc_CQ9sNU4dEmJnIr-2MxhdT08IJIForCwJOzFvemvuGrGPjwzhaBGMbTH_IJzRCbljx_p5nRXYbOFsnOmFZGD8CLZ3VXJv3N-P59_2yw71eYpywPlmTJ3XV9fViiw_a3KZ2WpMvDdHKJYjeCVsDyYPTKwt_fNoc6I_KnFeS_zdx9yqw8NIc6NmMTU5VGhJJv_yweip5ttchi-vXDHBHdqFODVx3yDeewtpxvj8QtOvGK-DcKSJ2HoEGMgkt40z2nbMQZAjHyDxyy-zeJuJ4gtQiVyx5TM1gDGyA3votYgvbrYq9sLlNc9JpHnu4Znn-08PPoo0k5xXqLNg6aSVA
+sec-ch-ua: &quot;Chromium&quot;;v=&quot;130&quot;, &quot;Google Chrome&quot;;v=&quot;130&quot;, &quot;Not?A_Brand&quot;;v=&quot;99&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: lwa-global-eastus-hbf-ai1-back.azurewebsites.net
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+Content-Length: 48
+</requestHeader>
+  <responseData class="java.lang.String"> Hello Hello! Hello! How Hello! How can Hello! How can I Hello! How can I assist Hello! How can I assist you Hello! How can I assist you today Hello! How can I assist you today?{&quot;data&quot;: &quot; Hello! How can I assist you today?&quot;, &quot;sources&quot;: [], &quot;raise_ticket&quot;: false}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;query_string&quot;:&quot;Hellow\n&quot;,&quot;memory_messages&quot;:[]}</queryString>
+  <java.net.URL>https://lwa-global-eastus-hbf-ai1-back.azurewebsites.net/v1/harvey-chatbot</java.net.URL>
+</httpSample>
+
+</testResults>
